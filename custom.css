@@ -568,3 +568,41 @@ body {
   height: 0 !important;
   width: 0 !important;
 }
+
+/* Hero Marquee Image Gallery layout fixes */
+.hero-marque-image-wrap {
+  width: 243px !important; /* Force desktop width of the original template card */
+  height: 8.625rem !important;
+}
+
+.hero-marque-image {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+/* Tablet view styling for marquee */
+@media screen and (max-width: 991px) {
+  .hero-marque-image-wrap {
+    height: 6.8rem !important;
+    width: 192px !important; /* Maintain aspect ratio */
+  }
+}
+
+/* Mobile landscape view styling for marquee */
+@media screen and (max-width: 767px) {
+  .hero-marque-image-wrap {
+    height: 6.8rem !important;
+    width: 192px !important; /* Maintain aspect ratio */
+  }
+}
+
+/* Mobile portrait view styling for marquee */
+@media screen and (max-width: 479px) {
+  .hero-marque-image-wrap {
+    height: 6.8rem !important; /* Increase from tiny 3.9rem (62px) logo scale to match landscape height for premium visibility */
+    width: 192px !important; /* Maintain aspect ratio */
+    margin-right: var(--_spacing---margin--margin-base) !important;
+  }
+}
+

@@ -41,3 +41,4 @@ lerna-debug.log*
 .gemini/
 antigravity-ide/
 mcp_servers.json
+.vercel
