@@ -1,0 +1,11 @@
+{
+  "name": "murooj-al-furjan-archivanta-clone",
+  "version": "1.0.0",
+  "description": "Local clone of Archivanta website",
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
