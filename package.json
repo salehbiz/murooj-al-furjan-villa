@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Local clone of Archivanta website",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "mkdir -p dist && cp -R index.html custom.css assets cdn.prod.website-files.com d3e54v103j8qbb.cloudfront.net fonts.googleapis.com fonts.gstatic.com ajax.googleapis.com archivanta.webflow.io dist/",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^5.0.0"
