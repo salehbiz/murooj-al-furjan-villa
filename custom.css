@@ -606,3 +606,17 @@ body {
   }
 }
 
+/* Brand Logo Image Styling */
+.brand-logo-img {
+  height: 160px !important; /* Premium extra large size */
+  width: auto !important;
+  object-fit: contain !important;
+  display: block !important;
+}
+
+@media screen and (max-width: 767px) {
+  .brand-logo-img {
+    height: 96px !important; /* Extra large on mobile too */
+  }
+}
+
